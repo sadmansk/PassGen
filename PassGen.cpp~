@@ -22,9 +22,8 @@ void genPass (int curSize)
 	//	system("PAUSE");	
 		for (int i = 0; i < (sizeof(pass)/sizeof(*pass)); i++)
 		{
-			std::cout << pass [i];
+			std::cout << pass [i] << std::endl;
 		}//displays the generated password when the each character is generated
-		std::cout << std::endl;
 	}
 }
 
